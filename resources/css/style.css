@@ -1,0 +1,242 @@
+
+  body{
+    margin: 0px;
+    padding: 0px;
+    background-color: : #101216;
+  }
+  .theme{
+    height: 105vh;
+    margin-top: -84px;
+    position: relative;
+  }
+  .theme11{
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 105vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .backgraund1{
+
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100px;
+}
+  .backgraund1 img{
+    position: absolute;
+    top: -200%;
+    bottom: -200%;
+    left: -1269%;
+    right: -200%;
+    margin: auto;
+  }
+  .logo{
+    position: relative;
+    z-index: 1;
+
+    margin: 18px 0px 0px 0px;
+
+  }
+
+  .test{
+    font-size: 40px;
+    position: relative;
+
+  }
+  .header{
+    position: relative;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+    width: 100%;
+    height: 80px;
+    transition: all 0.3s ease;
+  }
+  .menu ul{
+    display: flex;
+  }
+  .menu ul li{
+    padding: 1px 12px;
+    font-size: 12px;
+    font-weight: 700;
+    list-style-type: none;
+
+  }
+  .menu ul li a{
+    color: white;
+    text-decoration: none;
+  }
+  .menu {
+    padding: 14px;
+  }
+  .reservation{
+    display: flex;
+    height: 40px;
+    width: 136px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    margin: 18px 0px 0px 0px;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  .reservation a{
+    text-decoration: none;
+    margin: auto;
+    color: white;
+  }
+  .contact p{
+    color: white;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+  .contact a{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+  }
+  .contact{
+
+    margin: 30px;
+  }
+  .content {
+    z-index: 2;
+    position: relative;
+    width: 600px;
+    margin: 0px 165px 221px 1px;
+  }
+  .content h1{
+    margin: 0;
+    padding: 0;
+    font-size: 42px;
+    color: white;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font: 30pt Arial Black;
+    font-weight: 600;
+  }
+  .content p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font: 10pt Arial Black;
+  }
+  .mask{
+    position: absolute;
+    z-index: 1;
+    top: -30%;
+    bottom: 0;
+    left: -110%;
+    right: -4%;
+    margin: auto;
+    background: linear-gradient(360deg, #101216 0%, transparent 59.19%), linear-gradient(0deg, rgba(43, 43, 43, 0.5), rgba(43, 43, 43, 0.5));
+  }
+  .button a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transform: skew(15deg);
+  }
+  .button{
+    margin-top: 20px;
+    height: 45px;
+    background-color: #FF9F00;
+    width: 200px;
+    transform: skew(-15deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .widget{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: 750px;
+  }
+  .widget a img{
+    width: 200px
+  }
+  .minimap{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    width: 100%;
+
+  }
+  .minimap p{
+    margin-left: 31px;
+    color: white;
+  }
+  .svg img{
+    position: absolute;
+  }
+  .svg{
+    margin-left: 300px;
+  }
+  .theme12{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 102vh;
+  }
+  .theme12 h2{
+    color: white;
+  }
+  .scroll{
+    position: fixed;
+    width: 100%;
+    background: black;
+    height: 50px;
+  }
+  .header.scroll .menu{
+    padding: 2px;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+
+  }
+  .header.scroll .reservation a{
+    color: #119BFF;
+  }
+  .header.scroll .reservation{
+    border-color: rgba(0, 148, 255, 0.2);
+    margin: 8px 0px 0px 0px;
+    height: 32px;
+  }
+  .header.scroll .contact{
+    margin: 20px 30px;
+  }
+  .header.scroll .contact p{
+    display: none;
+  }
+  .scroll-logo img {
+    display: none;
+  }
+  .header.scroll .logo .main-logo {
+    display: none;
+  }
+  .header.scroll .logo {
+
+    margin: 15px 10px;
+  }
+  .header.scroll .logo .scroll-logo img{
+    display: flex;
+  }
