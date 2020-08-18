@@ -31,6 +31,7 @@ class Testcontroller extends BaseController
 
       $data=$request->input();
 
+
       unset($data["_token"]);
 
       DB::table('test')->insert($data);
@@ -39,16 +40,16 @@ class Testcontroller extends BaseController
       $db_data=array_map(function($item){
         return (array) $item;
       },$db_data);
+
       echo json_encode($db_data);
     }
+
     public function delete(Request $request){
-      $data=$request;
+      $data=$request->input();
 
       unset($data["_token"]);
-
+      
       DB::table('test')->delete($data);
-
-
 
       $db_data = DB::table('test')->get();
 

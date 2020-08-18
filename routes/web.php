@@ -16,6 +16,6 @@ Route::get('/', 'Main@index');
 
 Route::get('/Testcontroller', 'TestController@index');
 
-Route::post('/Testcontroller','TestController@bd_add')->name('bd_add');
+Route::post('/Testcontroller/add','TestController@bd_add')->name('bd_add');
 
-Route::post('/Testcontroller','TestController@delete')->name('delete');
+Route::post('/Testcontroller/delete','TestController@delete')->name('delete');

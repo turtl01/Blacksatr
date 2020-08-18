@@ -2,7 +2,7 @@
   $( document ).ready(function() {
     $('.new_element').on('click', function(r){
 
-      $.post('/Testcontroller', {"_token": "{{ csrf_token() }}", name:"yan", pole1:"pudge", pole2:"positicai 5" }).done(function(ans){
+      $.post('/Testcontroller/add', {"_token": "{{ csrf_token() }}", name:"yan", pole1:"pudge", pole2:"positicai 5" }).done(function(ans){
         let otvet = JSON.parse(ans);
         let element = otvet.pop();
         let prehtml = '';
@@ -20,7 +20,7 @@
       });
     });
     $('.detach').on('click', function(r){
-      $.post('/Testcontroller' {"_token": "{{ csrf_token() }}"})
+      $.post('/Testcontroller/delete', {"_token": "{{ csrf_token() }}", id:"153"}).done(function(ans){});
     });
   });
 </script>
