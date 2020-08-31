@@ -14,10 +14,10 @@
       <div class="logo">
         <a href="https://select.blackstarkarting.ru/">
           <div class="main-logo">
-            <img src="img/main-logo.svg">
+            <img src="/img/main-logo.svg">
           </div>
           <div class="scroll-logo">
-            <img src="img/scroll-logo.svg">
+            <img src="/img/scroll-logo.svg">
           </div>
         </a>
       </div>
@@ -55,7 +55,7 @@
       <?=$main?>
     </div>
 
-    <script src="js/index.js">
+    <script src="/js/index.js">
 
     </script>
   </body>

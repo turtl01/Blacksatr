@@ -14,8 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 Route::get('/', 'Main@index');
 
-Route::get('/Testcontroller', 'TestController@index');
+Route::get('/bd', 'Bd@index');
 
-Route::post('/Testcontroller/add','TestController@bd_add')->name('bd_add');
+Route::get('/bd/create', 'Bd@create');
 
-Route::post('/Testcontroller/delete','TestController@delete')->name('delete');
+Route::post('/bd/add','Bd@add')->name('add');
+
+Route::get('/bd/del/{id}','Bd@del')->name('del');
+
+Route::get('/bd/edit/{id}','Bd@edit')->name('edit');
+
+Route::post('/bd/update/','Bd@update')->name('update');

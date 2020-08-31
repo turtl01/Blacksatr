@@ -44,7 +44,7 @@
     <div class="new_element">
       добавить
     </div>
-    <form action="/Testcontroller">
+    <form action="/bd">
         <label for="id">Веддите айди</label>
         <input type="text" name="id" value="" placeholder="id">
     </form>
